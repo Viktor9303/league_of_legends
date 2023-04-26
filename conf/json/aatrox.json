@@ -1,0 +1,40 @@
+{
+  "health": [650,2588],
+  "healthregen": [3,20],
+  "armor": [38,113.65],
+  "attackdamage": [60,145],
+  "magic resist": [32,67],
+  "movespeed": 345,
+  "attackrange": 175,
+  "abilities": [
+    {
+      "cooldown": [14,12,10,8,6],
+      "casttime": 0.6,
+      "firstdamage": [10,30,50,70,90],
+      "firstrange": [625],
+      "seconddamge": [12.5,37.5,62.5,87.5,112.5],
+      "secondrange": 100,
+      "thirddamage": [60,180,300,420,540],
+    },
+    {
+      "cooldown": [20,18,16,14,12],
+      "casttime": 0.25,
+      "range": [825,765],
+      "width": [160],
+      "damage": [30,40,50,60]
+    },
+    {
+      "cooldown": [9,8,7,6,5],
+      "casttime": 0,
+      "range": [75,300,500],
+      "heal": [18,19.5,21,22.5,24]
+    },
+    {
+      "cooldown": [120,100,80],
+      "effect radius": 600,
+      "bonusmovementspeed": [50,65,80],
+      "bonusattackdamage": [20,32.5,45],
+      "increasinghealth": [25,35,45]
+    }
+  ]
+}

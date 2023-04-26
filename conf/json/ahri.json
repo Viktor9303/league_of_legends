@@ -1,0 +1,43 @@
+{
+  "health": [590,2222],
+  "mana": [418,843],
+  "manaregen": [8,21.6],
+  "healthregen": [2.5,12.7],
+  "armor": [21,100.9],
+  "attackdamage": [53,104],
+  "magicresist": [30,52.1],
+  "movespeed": 330,
+  "attackrange": 550,
+  "abilities": [
+    {
+      "cost": [
+        55,65,75,85,95
+      ],
+      "cooldown": 7,
+      "casttime": 0.25,
+      "effectradius": 100,
+      "width": 200,
+      "speed": 1550
+    },
+    {
+      "cost": 30,
+      "casttime": 0,
+      "effectradius": [150,550,725],
+      "speed": 1000
+    },
+    {
+      "cost": 60,
+      "cooldown": 14,
+      "range": 1000,
+      "width": 120
+    },
+    {
+      "cost": 100,
+      "oooldown": [130,105,80],
+      "casttime": 0,
+      "targetrange": 500,
+      "effectradius": 600,
+      "speed": 1100
+    }
+  ]
+}
